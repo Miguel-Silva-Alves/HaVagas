@@ -2,7 +2,7 @@
     <string name="app_name">cadastro</string>
     <string name="ex_telefone">Ex: 12-93456-7890</string>
     <string name="ingressar">Ingressar na lista de e-mails</string>
-    <string name="masculino">Masculino\n</string>
+    <string name="masculino">Masculino</string>
     <string name="feminino">Feminino</string>
     <string name="salvar">Salvar</string>
     <string name="limpar">Limpar</string>

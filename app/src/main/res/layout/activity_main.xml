@@ -70,13 +70,13 @@
         android:id="@+id/ckIngressarListaEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="@string/ingressar"
+        app:layout_constraintBottom_toTopOf="@+id/sexo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/sexo"
-        app:layout_constraintTop_toBottomOf="@+id/txtEmail"
-        tools:layout_editor_absoluteY="276dp" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -94,15 +94,13 @@
             android:layout_height="wrap_content"
             android:text="@string/masculino"
             app:layout_constraintBottom_toTopOf="@+id/cidade"
-            app:layout_constraintEnd_toStartOf="@+id/rdSexoFeminino"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/sexo" />
 
         <RadioButton
             android:id="@+id/rdSexoFeminino"
-            android:layout_width="109dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="192dp"
             android:text="@string/feminino"
             app:layout_constraintBottom_toTopOf="@+id/cidade"
             app:layout_constraintEnd_toEndOf="parent"
@@ -113,7 +111,9 @@
         android:id="@+id/btnSalvar"
         android:layout_width="187dp"
         android:layout_height="52dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="12dp"
+        android:layout_marginBottom="24dp"
         android:text="@string/salvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,6 +123,8 @@
         android:id="@+id/btnLimpar"
         android:layout_width="183dp"
         android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
         android:text="@string/limpar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnSalvar"
@@ -130,11 +132,11 @@
         app:layout_constraintTop_toBottomOf="@+id/listaUf" />
 
 
-
     <TextView
         android:id="@+id/telefone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="@string/telefone"
         app:layout_constraintBottom_toTopOf="@+id/txtTelefone"
         app:layout_constraintEnd_toEndOf="parent"
@@ -146,6 +148,7 @@
         android:id="@+id/email"
         android:layout_width="58dp"
         android:layout_height="22dp"
+        android:layout_marginTop="24dp"
         android:text="@string/email"
         app:layout_constraintBottom_toTopOf="@+id/txtEmail"
         app:layout_constraintEnd_toEndOf="parent"
@@ -157,6 +160,7 @@
         android:id="@+id/sexo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="@string/sexo"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintEnd_toEndOf="parent"
@@ -168,6 +172,7 @@
         android:id="@+id/cidade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="@string/cidade"
         app:layout_constraintBottom_toTopOf="@+id/txtCidade"
         app:layout_constraintEnd_toEndOf="parent"
@@ -179,6 +184,7 @@
         android:id="@+id/uf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="@string/uf"
         app:layout_constraintBottom_toTopOf="@+id/listaUf"
         app:layout_constraintEnd_toEndOf="parent"
