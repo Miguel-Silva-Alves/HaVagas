@@ -1,44 +1,40 @@
 <resources>
-    <string name="app_name">cadastro</string>
+    <string name="app_name">Formulario</string>
     <string name="ex_telefone">Ex: 12-93456-7890</string>
     <string name="ingressar">Ingressar na lista de e-mails</string>
     <string name="masculino">Masculino</string>
     <string name="feminino">Feminino</string>
     <string name="salvar">Salvar</string>
     <string name="limpar">Limpar</string>
-    <string name="nome_completo">Nome Completo</string>
-    <string name="telefone">Telefone</string>
-    <string name="email">Email</string>
-    <string name="sexo">Sexo</string>
+    <string name="nome_completo">Nome Completo*</string>
+    <string name="email">Email*</string>
+    <string name="sexo">Sexo*</string>
     <string name="cidade">Cidade</string>
     <string name="uf">UF</string>
+    <string name="formacao">Formação</string>
+    <string name="vagas">Vagas</string>
+    <string name="preenchaDadosTv">Formulário</string>
+    <string name="receberEmailsTv">Receber email com atualizações</string>
+    <string name="simRb">Sim</string>
+    <string name="naoRb">Não</string>
+    <string name="telefoneTipoTv">Tipo de Telefone</string>
+    <string name="comercial">Comercial</string>
+    <string name="residencial">Residencial</string>
+    <string name="telefoneEt">Telefone*</string>
+    <string name="telefoneCelularBt">Telefone Celular</string>
+    <string name="telefoneCelularEt">Celular</string>
+    <string name="dataNascimentoTv">Data de Nascimento*</string>
+    <string name="anoFormacaoEt">Ano de Formação</string>
+    <string name="instituicaoEt">Instituição</string>
+    <string name="tituloMonografiaEt">Título de Monografia</string>
+    <string name="orientadorEt">Orientador</string>
+    <string name="vagasInteresseEt">Vagas de Interesse*</string>
     <string-array name="lista">
-        <item>Acre</item>
-        <item>Alagoas</item>
-        <item>Amapá</item>
-        <item>Amazonas</item>
-        <item>Bahia</item>
-        <item>Ceará</item>
-        <item>Distrito Federal</item>
-        <item>Espírito Santo</item>
-        <item>Goiás</item>
-        <item>Maranhão</item>
-        <item>Mato Grosso</item>
-        <item>Mato Grosso do Sul</item>
-        <item>Minas Gerais</item>
-        <item>Pará</item>
-        <item>Paraíba</item>
-        <item>Paraná</item>
-        <item>Pernambuco</item>
-        <item>Piauí</item>
-        <item>Rio de Janeiro</item>
-        <item>Rio Grande do Norte</item>
-        <item>Rio Grande do Sul</item>
-        <item>Rondônia</item>
-        <item>Roraima</item>
-        <item>Santa Catarina</item>
-        <item>São Paulo</item>
-        <item>Sergipe</item>
-        <item>Tocantins</item>
+        <item>Fundamental</item>
+        <item>Médio</item>
+        <item>Graduação</item>
+        <item>Especialização</item>
+        <item>Mestrado</item>
+        <item>Doutorado</item>
     </string-array>
 </resources>

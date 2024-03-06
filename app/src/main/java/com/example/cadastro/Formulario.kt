@@ -4,19 +4,19 @@ class Formulario(
     var nomeCompleto: String,
     var email: String,
     var telefone: String,
-    var cidade: String,
-    var uf: String?,
     var sexo: String,
-    var vaiIngressar: Boolean
+    var vagas: String,
+    var receberAtualizacao: Boolean,
+    var telefoneCelular: String,
+    var formacao: String,
+    var tipoTelefone: String,
+    var dataAniversario: String,
+    var anoFormacao: String,
+    var instituicao: String,
+    var titulo: String,
+    var orientador: String
 ) {
     override fun toString(): String {
-        return "Formulário: \n" +
-                "Nome completo: $nomeCompleto\n" +
-                "Email: $email\n" +
-                "Telefone: $telefone\n" +
-                "Cidade: $cidade\n" +
-                "UF: $uf\n" +
-                "Sexo: $sexo\n" +
-                "Vai ingressar: $vaiIngressar"
+        return "Formulario(nomeCompleto='$nomeCompleto', email='$email', telefone='$telefone', sexo='$sexo', vagas='$vagas', receberAtualizacao=$receberAtualizacao, telefoneCelular='$telefoneCelular', formacao='$formacao', tipoTelefone='$tipoTelefone', dataAniversario='$dataAniversario', anoFormacao='$anoFormacao', instituicao='$instituicao', titulo='$titulo', orientador='$orientador')"
     }
 }
